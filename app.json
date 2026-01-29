@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "PhotoMagic",
+    "slug": "PhotoMagic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "PhotoMagic needs camera access to take photos for editing.",
+        "NSPhotoLibraryUsageDescription": "PhotoMagic needs photo library access to select images for editing.",
+        "NSLocationWhenInUseUsageDescription": "PhotoMagic uses your location to add location-based filters."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f1a"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.infosec.photomagic",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "PhotoMagic needs access to your photos for AI editing.",
+          "cameraPermission": "PhotoMagic needs camera access to take photos for editing."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "PhotoMagic uses your location for location-based filters."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "762cf6f5-8066-4c0a-bfb8-1859b3db4d4b"
+      }
+    }
+  }
+}
