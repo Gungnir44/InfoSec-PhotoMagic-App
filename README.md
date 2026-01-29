@@ -1,6 +1,18 @@
 # PhotoMagic - InfoSec Educational Demo App
 
+![Platform](https://img.shields.io/badge/Platform-Android-green?logo=android)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-blue?logo=react)
+![Expo](https://img.shields.io/badge/Expo-SDK%2054-black?logo=expo)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Purpose](https://img.shields.io/badge/Purpose-Educational-red)
+
 > **A security awareness demonstration app for college Information Security coursework**
+
+<p align="center">
+  <img src="docs/screenshots/home.png" width="200" alt="Home Screen"/>
+  <img src="docs/screenshots/editor.png" width="200" alt="Editor Screen"/>
+  <img src="docs/screenshots/reveal.png" width="200" alt="Reveal Screen"/>
+</p>
 
 ## Overview
 
